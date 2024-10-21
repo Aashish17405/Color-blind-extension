@@ -4,7 +4,9 @@ function App() {
 
   return (
     <>
-      <div className='text-yellow-500 text-2xl p-10'>hello</div>
+      <div className='m-10 mx-20'>
+        <h1 className=' text-2xl'>Color Blind helper</h1>
+      </div>
     </>
   )
 }
