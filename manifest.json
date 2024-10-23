@@ -3,10 +3,7 @@
   "name": "CRXJS React Vite Example",
   "version": "1.0.0",
   "action": { "default_popup": "index.html" },
-  "content_scripts": [
-    {
-      "js": ["src/content.jsx"],
-      "matches": ["https://www.google.com/*"]
-    }
-  ]
+  "background": {
+    "service_worker": "service-worker.js"
+  }
 }
