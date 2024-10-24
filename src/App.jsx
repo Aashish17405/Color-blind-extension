@@ -1,5 +1,5 @@
 import './App.css'
-import Button from './components/Button'
+import ToggleButton from './components/ToggleButton'
 import logo from './logo.png'
 
 function App() {
@@ -15,9 +15,19 @@ function App() {
         <h1 className='text-2xl'>Color Blind helper</h1>
 
         <div className='flex mt-2'>
-          <p className=''>Color Blind</p> 
-          <Button/>
+          <p className='mr-2'>Red-Green Blindness</p> 
+          <ToggleButton/>
         </div>        
+
+        <div className='flex mt-2'>
+          <p className='mr-2'>Blue-Yellow Blindness</p> 
+          <ToggleButton/>
+        </div>
+
+        <div className='flex mt-2'>
+          <p className='mr-2'>Achromatopsia</p> 
+          <ToggleButton/>
+        </div>
       </div>
     </div>
   )

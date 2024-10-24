@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Button() {
+export default function ToggleButton() {
   const [toggled, setToggled] = useState(false);
 
   return (
